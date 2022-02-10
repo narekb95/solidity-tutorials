@@ -1,4 +1,4 @@
-export const CONTACT_ADDRESS = '0x45b42b5AA842bdAE114Fc6042df764d8B50479D2'
+export const CONTACT_ADDRESS = '0x6C1c358C64940A225A83383C8Fb027dBCaE9d265'
 
 export const CONTACT_ABI = [
   {
@@ -37,6 +37,10 @@ export const CONTACT_ABI = [
       {
         "name": "phone",
         "type": "string"
+      },
+      {
+        "name": "sender",
+        "type": "address"
       }
     ],
     "payable": false,
